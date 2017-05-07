@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Medidas das Camadas
+qgisMinimumVersion=2.0
+description=Este Plugin mede o comprimento para todas as feicoes do tipo linha, bem como mede o perimetro e area para feicoes do tipo poligono.
+version=0.1
+author=Leandro Franca
+email=franca.leandro@eb.mil.br
+
+about=Este plugin cria Campos Virutuais para as camadas do tipo linha e poligono para as suas respectivas medidas. Esta e uma saida pra se ter quase automaticamente os valores de area, perimetro e comprimento de todas as feicoes.
+
+tracker=https://github.com/LEOXINGU/3CGEO/projects
+repository=https://github.com/LEOXINGU/3CGEO/projects
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=
+
+homepage=
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
